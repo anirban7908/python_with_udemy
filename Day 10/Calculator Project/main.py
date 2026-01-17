@@ -1,3 +1,4 @@
+from art import logo
 def add(n1, n2):
     return n1 + n2
 
@@ -27,6 +28,7 @@ operation_dict = {
     '/': divide
 }
 def calculator():
+    print(logo)
     first_num = float(input('Please enter your first number: '))
     should_cont = True
 
