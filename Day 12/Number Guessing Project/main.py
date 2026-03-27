@@ -1,17 +1,19 @@
 import random
 from art import logo
 
+EASY_LEVEL_TURNS = 10
+HARD_LEVEL_TURNS = 5
+
 def change_difficulty():
     difficulty = input("Choose difficulty: Easy, Hard: ").lower()
 
     if difficulty == 'easy':
-        attempts_remaining = 10
+        return EASY_LEVEL_TURNS
     elif difficulty == 'hard':
-        attempts_remaining = 5
+        return HARD_LEVEL_TURNS
     else:
         print("Invalid choice.")
         return False
-    return attempts_remaining
 
 def start_game(attempts_remaining):
     print(logo)
@@ -39,6 +41,8 @@ def start_game(attempts_remaining):
             print("Too high.\nGuess again.")
         else:
             print("Too low.\nGuess again.")
+
+
 while True:
     attempts = change_difficulty()
     if not attempts:
