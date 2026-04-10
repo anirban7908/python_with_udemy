@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-def add(n1, n2):
-    return n1 + n2
-
-
-=======
 from art import logo
 def add(n1, n2):
     return n1 + n2
@@ -56,4 +50,3 @@ def calculator():
             calculator()
 
 calculator()
->>>>>>> origin/master

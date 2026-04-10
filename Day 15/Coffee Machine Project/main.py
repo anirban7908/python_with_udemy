@@ -30,7 +30,6 @@ resources = {
     "coffee": 100,
 }
 
-<<<<<<< HEAD
 profit = 0
 
 def report(data):
@@ -96,5 +95,3 @@ while is_on:
             payment = process_coins()
             if is_transaction_successful(payment, chosen_drink['cost']):
                 proces_drink(user_input, chosen_drink['ingredients'])
-=======
->>>>>>> origin/master
