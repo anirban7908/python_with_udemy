@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
-=======
 import random
 friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
 
@@ -11,4 +8,3 @@ print(friends[rand_name])
 # by random choice
 rand_name = random.choice(friends)
 print(rand_name)
->>>>>>> origin/master

@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 import random
->>>>>>> origin/master
 rock = '''
     _______
 ---'   ____)
@@ -28,8 +25,6 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-<<<<<<< HEAD
-=======
 game_image = [rock, paper, scissors]
 # print(machine_list)
 while True:
@@ -58,4 +53,3 @@ while True:
         print('Game draw')
 
 
->>>>>>> origin/master

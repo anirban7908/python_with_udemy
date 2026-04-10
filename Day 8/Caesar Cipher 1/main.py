@@ -15,8 +15,6 @@ shift = int(input("Type the shift number:\n"))
 # TODO-3: Call the 'encrypt()' function and pass in the user inputs. You should be able to test the code and encrypt a
 #  message.
 
-<<<<<<< HEAD
-=======
 def encrypt(original_text, shift_amount):
     cipher_text = ''
     for char in original_text:
@@ -26,4 +24,3 @@ def encrypt(original_text, shift_amount):
     print(original_text, shift_amount, cipher_text)
 
 encrypt(original_text = text, shift_amount = shift)
->>>>>>> origin/master

@@ -2,8 +2,6 @@
 # TODO-2: Save data into dictionary {name: price}
 # TODO-3: Whether if new bids need to be added
 # TODO-4: Compare bids in dictionary
-<<<<<<< HEAD
-=======
 from art import logo
 print(logo)
 bid_data = {}
@@ -23,6 +21,5 @@ max_bidder = max(bid_data, key=bid_data.get)
 max_bid = bid_data[max_bidder]
 print(f"The Winner is {max_bidder} with a bidding price of ${max_bid}")
 
->>>>>>> origin/master
 
 
