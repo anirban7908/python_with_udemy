@@ -1,7 +1,10 @@
 import random
 <<<<<<< HEAD
+<<<<<<< HEAD
 word_list = ["aardvark", "baboon", "camel"]
 =======
+=======
+>>>>>>> 8a2243621c15705a4f4beaebf7b410250fd1b2a5
 
 from hangman_words import word_list
 from hangman_art import stages, logo
@@ -9,11 +12,15 @@ from hangman_art import stages, logo
 lives = 6
 
 print(logo)
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> 8a2243621c15705a4f4beaebf7b410250fd1b2a5
 
 chosen_word = random.choice(word_list)
 print(chosen_word)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 guess = input("Guess a letter: ").lower()
 
@@ -29,6 +36,14 @@ for position in range(word_length):
     placeholder += "_"
 print("Word to guess: " + placeholder)
 
+=======
+placeholder = ""
+word_length = len(chosen_word)
+for position in range(word_length):
+    placeholder += "_"
+print("Word to guess: " + placeholder)
+
+>>>>>>> 8a2243621c15705a4f4beaebf7b410250fd1b2a5
 game_over = False
 correct_letters = []
 
@@ -67,4 +82,7 @@ while not game_over:
         print("****************************YOU WIN****************************")
 
     print(stages[lives])
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> 8a2243621c15705a4f4beaebf7b410250fd1b2a5
