@@ -7,6 +7,7 @@ print(5 // 3)
 print(2 ** 3)
 
 # PEMDASLR Order
+# The PEMDASLR rule dictates the sequence for solving multi-step math problems: evaluate Parentheses, then Exponents, and finally, resolve both Multiplication/Division and Addition/Subtraction from Left to Right (LR).
 # ()
 # **
 # * OR /
