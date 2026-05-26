@@ -13,6 +13,7 @@ class Snake:
         self.segments = []
         self.create_snake()
         self.head = self.segments[0]
+        self.direction_changed = False
 
     def create_snake(self):
         for position in STARTING_POSITIONS:
@@ -31,6 +32,7 @@ class Snake:
         self.segments.clear()
         self.create_snake()
         self.head = self.segments[0]
+        self.direction_changed = False
     
     def extend(self):
         self.add_segment(self.segments[-1].position())
@@ -42,19 +44,24 @@ class Snake:
             self.segments[seg_num].goto(new_x, new_y)
 
         self.head.fd(MOVE_DISTANCE)
+        self.direction_changed = False
 
     def up(self):
-        if self.head.heading() != DOWN:
+        if self.head.heading() != DOWN and not self.direction_changed:
             self.head.setheading(UP)
+            self.direction_changed = True
 
     def down(self):
-        if self.head.heading() != UP:
+        if self.head.heading() != UP and not self.direction_changed:
             self.head.setheading(DOWN)
+            self.direction_changed = True
 
     def left(self):
-        if self.head.heading() != RIGHT:
+        if self.head.heading() != RIGHT and not self.direction_changed:
             self.head.setheading(LEFT)
+            self.direction_changed = True
 
     def right(self):
-        if self.head.heading() != LEFT:
+        if self.head.heading() != LEFT and not self.direction_changed:
             self.head.setheading(RIGHT)
+            self.direction_changed = True
