@@ -4,8 +4,8 @@ import random
 import glob
 import smtplib
 
-EMAIL = "Put the From emial[your email]"
-PASSWORD = "Put the password [Your password]"
+EMAIL = "dummy1email.for.practice@gmail.com"
+PASSWORD = "tznlptgbjjdlygxn"
 
 
 def fetch_letter():
