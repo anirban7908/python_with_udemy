@@ -1,0 +1,710 @@
+{
+    "search_metadata": {
+        "id": "6a317f01db99ec813f719254",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/dDjK81q0kV3W5rVVuH0r-g/6a317f01db99ec813f719254.json",
+        "created_at": "2026-06-16 16:51:13 UTC",
+        "processed_at": "2026-06-16 16:51:13 UTC",
+        "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=GBP&tfs=CBwQAhoeEgoyMDI2LTA2LTE3agcIARIDTEhScgcIARIDRlJBGh4SCjIwMjYtMTItMTNqBwgBEgNGUkFyBwgBEgNMSFJAAUgBcAGYAQE&tfu=EgIIAQ",
+        "raw_html_file": "https://serpapi.com/searches/dDjK81q0kV3W5rVVuH0r-g/6a317f01db99ec813f719254.html",
+        "prettify_html_file": "https://serpapi.com/searches/dDjK81q0kV3W5rVVuH0r-g/6a317f01db99ec813f719254.prettify",
+        "total_time_taken": 5.81
+    },
+    "search_parameters": {
+        "engine": "google_flights",
+        "hl": "en",
+        "gl": "us",
+        "type": "1",
+        "departure_id": "LHR",
+        "arrival_id": "FRA",
+        "outbound_date": "2026-06-17",
+        "return_date": "2026-12-13",
+        "adults": 1,
+        "currency": "GBP"
+    },
+    "best_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "London Heathrow",
+                        "id": "LHR",
+                        "time": "2026-06-17 11:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2026-06-17 13:50"
+                    },
+                    "duration": 100,
+                    "airplane": "Airbus A320",
+                    "airline": "British Airways",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "BA 906",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 74 kg"
+                    ]
+                }
+            ],
+            "total_duration": 100,
+            "carbon_emissions": {
+                "this_flight": 74000,
+                "typical_for_this_route": 69000,
+                "difference_percent": 7
+            },
+            "price": 164,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+            "departure_token": "WyJDalJJYWw5RFdrdDFWV2c1VUdkQlFWTkdNbmRDUnkwdExTMHRMUzB0TFMxMmQzWnNNMEZCUVVGQlIyOTRabmRKVFdaUmJHOUJFZ1ZDUVRrd05ob0tDTVYvRUFJYUEwZENVRGdjY0xHckFRPT0iLFtbIkxIUiIsIjIwMjYtMDYtMTciLCJGUkEiLG51bGwsIkJBIiwiOTA2Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "London Heathrow",
+                        "id": "LHR",
+                        "time": "2026-06-17 07:10"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2026-06-17 09:50"
+                    },
+                    "duration": 100,
+                    "airplane": "Airbus A320neo",
+                    "airline": "British Airways",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "BA 902",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 63 kg"
+                    ]
+                }
+            ],
+            "total_duration": 100,
+            "carbon_emissions": {
+                "this_flight": 64000,
+                "typical_for_this_route": 69000,
+                "difference_percent": -7
+            },
+            "price": 168,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+            "departure_token": "WyJDalJJYWw5RFdrdDFWV2c1VUdkQlFWTkdNbmRDUnkwdExTMHRMUzB0TFMxMmQzWnNNMEZCUVVGQlIyOTRabmRKVFdaUmJHOUJFZ1ZDUVRrd01ob0xDTldDQVJBQ0dnTkhRbEE0SEhETHJ3RT0iLFtbIkxIUiIsIjIwMjYtMDYtMTciLCJGUkEiLG51bGwsIkJBIiwiOTAyIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "London Heathrow",
+                        "id": "LHR",
+                        "time": "2026-06-17 20:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2026-06-17 22:35"
+                    },
+                    "duration": 95,
+                    "airplane": "Airbus A320",
+                    "airline": "British Airways",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "BA 910",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 74 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 74000,
+                "typical_for_this_route": 69000,
+                "difference_percent": 7
+            },
+            "price": 193,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+            "departure_token": "WyJDalJJYWw5RFdrdDFWV2c1VUdkQlFWTkdNbmRDUnkwdExTMHRMUzB0TFMxMmQzWnNNMEZCUVVGQlIyOTRabmRKVFdaUmJHOUJFZ1ZDUVRreE1Cb0xDSm1XQVJBQ0dnTkhRbEE0SEhEcXlRRT0iLFtbIkxIUiIsIjIwMjYtMDYtMTciLCJGUkEiLG51bGwsIkJBIiwiOTEwIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "London Heathrow",
+                        "id": "LHR",
+                        "time": "2026-06-17 13:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2026-06-17 16:05"
+                    },
+                    "duration": 95,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Lufthansa City Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "VL 907",
+                    "ticket_also_sold_by": [
+                        "Lufthansa"
+                    ],
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 67 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 67000,
+                "typical_for_this_route": 69000,
+                "difference_percent": -3
+            },
+            "price": 245,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VL.png",
+            "departure_token": "WyJDalJJYWw5RFdrdDFWV2c1VUdkQlFWTkdNbmRDUnkwdExTMHRMUzB0TFMxMmQzWnNNMEZCUVVGQlIyOTRabmRKVFdaUmJHOUJFZ1ZXVERrd054b0xDUDIrQVJBQ0dnTkhRbEE0SEhEUmdBST0iLFtbIkxIUiIsIjIwMjYtMDYtMTciLCJGUkEiLG51bGwsIlZMIiwiOTA3Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "London Heathrow",
+                        "id": "LHR",
+                        "time": "2026-06-17 17:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2026-06-17 20:05"
+                    },
+                    "duration": 95,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 915",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 67 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 67000,
+                "typical_for_this_route": 69000,
+                "difference_percent": -3
+            },
+            "price": 245,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "departure_token": "WyJDalJJYWw5RFdrdDFWV2c1VUdkQlFWTkdNbmRDUnkwdExTMHRMUzB0TFMxMmQzWnNNMEZCUVVGQlIyOTRabmRKVFdaUmJHOUJFZ1ZNU0RreE5Sb0xDUDIrQVJBQ0dnTkhRbEE0SEhEUmdBST0iLFtbIkxIUiIsIjIwMjYtMDYtMTciLCJGUkEiLG51bGwsIkxIIiwiOTE1Il1dXQ=="
+        }
+    ],
+    "other_flights": [
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "London Heathrow",
+                        "id": "LHR",
+                        "time": "2026-06-17 17:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2026-06-17 19:45"
+                    },
+                    "duration": 105,
+                    "airplane": "Airbus A320",
+                    "airline": "British Airways",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+                    "travel_class": "Economy",
+                    "flight_number": "BA 908",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Wi-Fi for a fee",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 74 kg"
+                    ]
+                }
+            ],
+            "total_duration": 105,
+            "carbon_emissions": {
+                "this_flight": 74000,
+                "typical_for_this_route": 69000,
+                "difference_percent": 7
+            },
+            "price": 243,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+            "departure_token": "WyJDalJJYWw5RFdrdDFWV2c1VUdkQlFWTkdNbmRDUnkwdExTMHRMUzB0TFMxMmQzWnNNMEZCUVVGQlIyOTRabmRKVFdaUmJHOUJFZ1ZDUVRrd09Cb0xDS0c5QVJBQ0dnTkhRbEE0SEhDcC9nRT0iLFtbIkxIUiIsIjIwMjYtMDYtMTciLCJGUkEiLG51bGwsIkJBIiwiOTA4Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "London Heathrow",
+                        "id": "LHR",
+                        "time": "2026-06-17 18:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2026-06-17 21:05"
+                    },
+                    "duration": 95,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Lufthansa City Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "VL 917",
+                    "ticket_also_sold_by": [
+                        "Lufthansa"
+                    ],
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 67 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 67000,
+                "typical_for_this_route": 69000,
+                "difference_percent": -3
+            },
+            "price": 245,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VL.png",
+            "departure_token": "WyJDalJJYWw5RFdrdDFWV2c1VUdkQlFWTkdNbmRDUnkwdExTMHRMUzB0TFMxMmQzWnNNMEZCUVVGQlIyOTRabmRKVFdaUmJHOUJFZ1ZXVERreE54b0xDUDIrQVJBQ0dnTkhRbEE0SEhEUmdBST0iLFtbIkxIUiIsIjIwMjYtMDYtMTciLCJGUkEiLG51bGwsIlZMIiwiOTE3Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "London Heathrow",
+                        "id": "LHR",
+                        "time": "2026-06-17 06:15"
+                    },
+                    "arrival_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2026-06-17 08:40"
+                    },
+                    "duration": 85,
+                    "airplane": "Airbus A220-300 Passenger",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AF 1381",
+                    "legroom": "30 in",
+                    "extensions": [
+                        "Average legroom (30 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 57 kg"
+                    ]
+                },
+                {
+                    "departure_airport": {
+                        "name": "Paris Charles de Gaulle Airport",
+                        "id": "CDG",
+                        "time": "2026-06-17 10:00"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2026-06-17 11:25"
+                    },
+                    "duration": 85,
+                    "airplane": "Embraer 190",
+                    "airline": "Air France",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+                    "travel_class": "Economy",
+                    "flight_number": "AF 1618",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "Free Wi-Fi",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 73 kg"
+                    ],
+                    "plane_and_crew_by": "HOP!"
+                }
+            ],
+            "layovers": [
+                {
+                    "duration": 80,
+                    "name": "Paris Charles de Gaulle Airport",
+                    "id": "CDG"
+                }
+            ],
+            "total_duration": 250,
+            "carbon_emissions": {
+                "this_flight": 131000,
+                "typical_for_this_route": 69000,
+                "difference_percent": 90
+            },
+            "price": 255,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+            "departure_token": "WyJDalJJYWw5RFdrdDFWV2c1VUdkQlFWTkdNbmRDUnkwdExTMHRMUzB0TFMxMmQzWnNNMEZCUVVGQlIyOTRabmRKVFdaUmJHOUJFZzFCUmpFek9ERjhRVVl4TmpFNEdnc0lnOGNCRUFJYUEwZENVRGdjY0xtTEFnPT0iLFtbIkxIUiIsIjIwMjYtMDYtMTciLCJDREciLG51bGwsIkFGIiwiMTM4MSJdLFsiQ0RHIiwiMjAyNi0wNi0xNyIsIkZSQSIsbnVsbCwiQUYiLCIxNjE4Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "London Heathrow",
+                        "id": "LHR",
+                        "time": "2026-06-17 15:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2026-06-17 18:05"
+                    },
+                    "duration": 95,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 909",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 67 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 67000,
+                "typical_for_this_route": 69000,
+                "difference_percent": -3
+            },
+            "price": 269,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "departure_token": "WyJDalJJYWw5RFdrdDFWV2c1VUdkQlFWTkdNbmRDUnkwdExTMHRMUzB0TFMxMmQzWnNNMEZCUVVGQlIyOTRabmRKVFdaUmJHOUJFZ1ZNU0Rrd09Sb0xDTW5SQVJBQ0dnTkhRbEE0SEhEUG1RST0iLFtbIkxIUiIsIjIwMjYtMDYtMTciLCJGUkEiLG51bGwsIkxIIiwiOTA5Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "London Heathrow",
+                        "id": "LHR",
+                        "time": "2026-06-17 06:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2026-06-17 09:05"
+                    },
+                    "duration": 95,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Lufthansa City Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "VL 921",
+                    "ticket_also_sold_by": [
+                        "Lufthansa"
+                    ],
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 67 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 67000,
+                "typical_for_this_route": 69000,
+                "difference_percent": -3
+            },
+            "price": 285,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VL.png",
+            "departure_token": "WyJDalJJYWw5RFdrdDFWV2c1VUdkQlFWTkdNbmRDUnkwdExTMHRMUzB0TFMxMmQzWnNNMEZCUVVGQlIyOTRabmRKVFdaUmJHOUJFZ1ZXVERreU1Sb0xDSW5lQVJBQ0dnTkhRbEE0SEhDMXFnST0iLFtbIkxIUiIsIjIwMjYtMDYtMTciLCJGUkEiLG51bGwsIlZMIiwiOTIxIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "London Heathrow",
+                        "id": "LHR",
+                        "time": "2026-06-17 07:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2026-06-17 10:05"
+                    },
+                    "duration": 95,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 923",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 67 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 67000,
+                "typical_for_this_route": 69000,
+                "difference_percent": -3
+            },
+            "price": 285,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "departure_token": "WyJDalJJYWw5RFdrdDFWV2c1VUdkQlFWTkdNbmRDUnkwdExTMHRMUzB0TFMxMmQzWnNNMEZCUVVGQlIyOTRabmRKVFdaUmJHOUJFZ1ZNU0RreU14b0xDSW5lQVJBQ0dnTkhRbEE0SEhDMXFnST0iLFtbIkxIUiIsIjIwMjYtMDYtMTciLCJGUkEiLG51bGwsIkxIIiwiOTIzIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "London Heathrow",
+                        "id": "LHR",
+                        "time": "2026-06-17 08:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2026-06-17 11:05"
+                    },
+                    "duration": 95,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Lufthansa City Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "VL 925",
+                    "ticket_also_sold_by": [
+                        "Lufthansa"
+                    ],
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 67 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 67000,
+                "typical_for_this_route": 69000,
+                "difference_percent": -3
+            },
+            "price": 285,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VL.png",
+            "departure_token": "WyJDalJJYWw5RFdrdDFWV2c1VUdkQlFWTkdNbmRDUnkwdExTMHRMUzB0TFMxMmQzWnNNMEZCUVVGQlIyOTRabmRKVFdaUmJHOUJFZ1ZXVERreU5Sb0xDSW5lQVJBQ0dnTkhRbEE0SEhDMXFnST0iLFtbIkxIUiIsIjIwMjYtMDYtMTciLCJGUkEiLG51bGwsIlZMIiwiOTI1Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "London Heathrow",
+                        "id": "LHR",
+                        "time": "2026-06-17 09:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2026-06-17 12:05"
+                    },
+                    "duration": 95,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 901",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 67 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 67000,
+                "typical_for_this_route": 69000,
+                "difference_percent": -3
+            },
+            "price": 285,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "departure_token": "WyJDalJJYWw5RFdrdDFWV2c1VUdkQlFWTkdNbmRDUnkwdExTMHRMUzB0TFMxMmQzWnNNMEZCUVVGQlIyOTRabmRKVFdaUmJHOUJFZ1ZNU0Rrd01Sb0xDSW5lQVJBQ0dnTkhRbEE0SEhDMXFnST0iLFtbIkxIUiIsIjIwMjYtMDYtMTciLCJGUkEiLG51bGwsIkxIIiwiOTAxIl1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "London Heathrow",
+                        "id": "LHR",
+                        "time": "2026-06-17 11:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2026-06-17 14:05"
+                    },
+                    "duration": 95,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Lufthansa City Airlines",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VL.png",
+                    "travel_class": "Economy",
+                    "flight_number": "VL 905",
+                    "ticket_also_sold_by": [
+                        "Lufthansa"
+                    ],
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 67 kg"
+                    ],
+                    "often_delayed_by_over_30_min": true
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 67000,
+                "typical_for_this_route": 69000,
+                "difference_percent": -3
+            },
+            "price": 285,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VL.png",
+            "departure_token": "WyJDalJJYWw5RFdrdDFWV2c1VUdkQlFWTkdNbmRDUnkwdExTMHRMUzB0TFMxMmQzWnNNMEZCUVVGQlIyOTRabmRKVFdaUmJHOUJFZ1ZXVERrd05Sb0xDSW5lQVJBQ0dnTkhRbEE0SEhDMXFnST0iLFtbIkxIUiIsIjIwMjYtMDYtMTciLCJGUkEiLG51bGwsIlZMIiwiOTA1Il1dXQ=="
+        },
+        {
+            "flights": [
+                {
+                    "departure_airport": {
+                        "name": "London Heathrow",
+                        "id": "LHR",
+                        "time": "2026-06-17 19:30"
+                    },
+                    "arrival_airport": {
+                        "name": "Frankfurt Airport",
+                        "id": "FRA",
+                        "time": "2026-06-17 22:05"
+                    },
+                    "duration": 95,
+                    "airplane": "Airbus A320neo",
+                    "airline": "Lufthansa",
+                    "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+                    "travel_class": "Economy",
+                    "flight_number": "LH 919",
+                    "legroom": "29 in",
+                    "extensions": [
+                        "Below average legroom (29 in)",
+                        "In-seat USB outlet",
+                        "Carbon emissions estimate: 67 kg"
+                    ]
+                }
+            ],
+            "total_duration": 95,
+            "carbon_emissions": {
+                "this_flight": 67000,
+                "typical_for_this_route": 69000,
+                "difference_percent": -3
+            },
+            "price": 285,
+            "type": "Round trip",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "departure_token": "WyJDalJJYWw5RFdrdDFWV2c1VUdkQlFWTkdNbmRDUnkwdExTMHRMUzB0TFMxMmQzWnNNMEZCUVVGQlIyOTRabmRKVFdaUmJHOUJFZ1ZNU0RreE9Sb0xDSW5lQVJBQ0dnTkhRbEE0SEhDMXFnST0iLFtbIkxIUiIsIjIwMjYtMDYtMTciLCJGUkEiLG51bGwsIkxIIiwiOTE5Il1dXQ=="
+        }
+    ],
+    "airports": [
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "LHR",
+                        "name": "London Heathrow"
+                    },
+                    "city": "London",
+                    "country": "United Kingdom",
+                    "country_code": "GB",
+                    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpN9RbtOSTDqKIPxWc_D6rdSysaWVh6d-NW7yz7yFXKRwh5RN5BpNIoXEwH1XVcFdLWqn6Sm8_Y_zmeg",
+                    "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYH83YXny8hR4M7k5BMFq4vUT6LNtVABQzgs2pg-hcpSZq3oMBOQK3xh591AAJv2Qx4uvFZUGqOVt4kuoCUOklISunmndJleOoSef_7QE"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "FRA",
+                        "name": "Frankfurt Airport"
+                    },
+                    "city": "Frankfurt am Main",
+                    "country": "Germany",
+                    "country_code": "DE",
+                    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRqdKUfBWQXvmp7-Y6p2lZnjO0xPPGMl7Wnh1tOp4QR5QfoOyaq2AqdvByEgXmwe_eGAYewCKeUlXGxqQ",
+                    "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRthwXcj3pIl7-x_4xgko5YQeqkTISsGgqS8vvDyYGQIu3lfxXz40TSEiN_5YR7AfORo7EaBO1V46ilVJueQaqWGBb5GzrVbbIt2vBOALM"
+                }
+            ]
+        },
+        {
+            "departure": [
+                {
+                    "airport": {
+                        "id": "FRA",
+                        "name": "Frankfurt Airport"
+                    },
+                    "city": "Frankfurt am Main",
+                    "country": "Germany",
+                    "country_code": "DE",
+                    "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRqdKUfBWQXvmp7-Y6p2lZnjO0xPPGMl7Wnh1tOp4QR5QfoOyaq2AqdvByEgXmwe_eGAYewCKeUlXGxqQ",
+                    "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRthwXcj3pIl7-x_4xgko5YQeqkTISsGgqS8vvDyYGQIu3lfxXz40TSEiN_5YR7AfORo7EaBO1V46ilVJueQaqWGBb5GzrVbbIt2vBOALM"
+                }
+            ],
+            "arrival": [
+                {
+                    "airport": {
+                        "id": "LHR",
+                        "name": "London Heathrow"
+                    },
+                    "city": "London",
+                    "country": "United Kingdom",
+                    "country_code": "GB",
+                    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpN9RbtOSTDqKIPxWc_D6rdSysaWVh6d-NW7yz7yFXKRwh5RN5BpNIoXEwH1XVcFdLWqn6Sm8_Y_zmeg",
+                    "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQYH83YXny8hR4M7k5BMFq4vUT6LNtVABQzgs2pg-hcpSZq3oMBOQK3xh591AAJv2Qx4uvFZUGqOVt4kuoCUOklISunmndJleOoSef_7QE"
+                }
+            ]
+        }
+    ]
+}
