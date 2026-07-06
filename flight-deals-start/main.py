@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 from data_manager import DataManager
 from flight_search import FlightSearch
 from flight_data import find_cheapest_flight
+from notification_manager import NotificationManager
 
 # ==================== Conserve requests and preserve your free plan ====================
 # Here we are not caching anything ending in *.sheety.co
@@ -46,7 +47,12 @@ for destination in sheety_data:
     pprint(f"{destination['city']}: GBP {cheapest_flight.price}")
 
     if cheapest_flight.price != "N/A" and cheapest_flight.price < destination["lowestPrice"]:
+        notify_manager = NotificationManager()
         pprint(f"Lower price flight found to {destination['city']}!")
+        destination['origin_city_iata'] = ORIGIN_CITY_IATA
+        # notify_manager.send_to_whatsapp(cheapest_flight, destination)
+        notify_manager.send_to_phone(cheapest_flight, destination)
         data_manager.update_lowest_price(destination["id"], cheapest_flight.price)
+
 
 #This file will need to use the DataManager,FlightSearch, FlightData, NotificationManager classes to achieve the program requirements.
