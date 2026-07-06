@@ -26,6 +26,6 @@ class NotificationManager:
         msg_body = f"Low Price alert! Only {data.price} to fly from {destination['origin_city_iata']} to {destination['city']}"
         message = client.messages.create(
             body=msg_body,
-            from_="+15054085683",
+            from_=self.from_num,
             to=self.to_num,
         )
