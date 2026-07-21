@@ -1,0 +1,2 @@
+1. Install sellinium and chrome browser
+2. pip install selenium
