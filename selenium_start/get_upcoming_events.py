@@ -38,4 +38,4 @@ for n in range(len(event_time)):
         'name':event_name[n].text,
     }
 print(event_list)
-driver.quit()
+# driver.quit()
