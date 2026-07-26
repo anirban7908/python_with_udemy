@@ -3,3 +3,4 @@ __pycache__
 database.db
 *.zip
 *.env
+gym_booking_automation/chrome_profile/
