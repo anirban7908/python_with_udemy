@@ -9,6 +9,7 @@ from selenium.common import (
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from time import sleep
+
 PROMISED_DOWN = 150
 PROMISED_UP = 10
 TWITTER_EMAIL = ""
