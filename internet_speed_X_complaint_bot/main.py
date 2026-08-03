@@ -1,3 +1,4 @@
+import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -10,10 +11,12 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from time import sleep
 
+from dotenv import load_dotenv
+load_dotenv()
 PROMISED_DOWN = 150
 PROMISED_UP = 10
-TWITTER_EMAIL = ""
-TWITTER_PASSWORD = ""
+TWITTER_EMAIL = os.getenv("TWITTER_EMAIL")
+TWITTER_PASSWORD = os.getenv("TWITTER_PASSWORD")
 
 
 class InternetSpeedTwitterBot:
